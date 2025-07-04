@@ -46,25 +46,25 @@ TodoList-Backend/
 
 ### 1. Clone the Repository
 
-\`\`\`bash
+```bash
 git clone https://github.com/yourusername/TodoList-Backend.git
 cd TodoList-Backend
-\`\`\`
+```
 
 ### 2. Install Dependencies
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### 3. Setup Environment Variables
 
 Create a \`.env\` file in the root folder and add:
 
-\`\`\`
+```
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
-\`\`\`
+```
 
 ✅ If you're using **MongoDB Atlas**, paste your cluster URI in place of \`your_mongodb_connection_string\`.
 
@@ -74,21 +74,21 @@ MONGODB_URI=your_mongodb_connection_string
 
 ### Development Mode (with auto-restart using nodemon)
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 ### Production Mode
 
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
 Server will start at:
 
-\`\`\`
+```
 http://localhost:5000
-\`\`\`
+```
 
 ---
 
@@ -107,7 +107,7 @@ http://localhost:5000
 ## 📝 Sample Requests
 
 ### 1️⃣ Create a Todo (POST)
-\`\`\`
+```
 POST http://localhost:3000/api/v1/createTodo
 Content-Type: application/json
 
@@ -115,20 +115,20 @@ Content-Type: application/json
     "title": "1st todo",
     "description": "1st task reminder"
 }
-\`\`\`
+```
 
 ### 2️⃣ Get All Todos (GET)
-\`\`\`
+```
 GET http://localhost:3000/api/v1/getTodo
-\`\`\`
+```
 
 ### 3️⃣ Get Single Todo by ID (GET)
-\`\`\`
+```
 GET http://localhost:3000/api/v1/getTodo/{id}
-\`\`\`
+```
 
 ### 4️⃣ Update Todo by ID (PUT)
-\`\`\`
+```
 PUT http://localhost:3000/api/v1/updateTodo/{id}
 Content-Type: application/json
 
@@ -136,12 +136,12 @@ Content-Type: application/json
     "title": "updated todo",
     "description": "update done by me"
 }
-\`\`\`
+```
 
 ### 5️⃣ Delete Todo by ID (DELETE)
-\`\`\`
+```
 DELETE http://localhost:3000/api/v1/updateTodo/{id}
-\`\`\`
+```
 
 ---
 
