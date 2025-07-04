@@ -1,0 +1,25 @@
+Todo App
+
+1. to create post (post)
+http://localhost:3000/api/v1/createTodo
+{ 
+    "title": "1st todo", 
+    "description": "1st task reminder"
+}
+
+
+2. to fetch all (get)
+http://localhost:3000/api/v1/getTodo
+
+3. to fetch 1 (get)
+http://localhost:3000/api/v1/getTodo/id
+
+4. to update (put)
+http://localhost:3000/api/v1/updateTodo/id
+{ 
+    "title": "updated todo", 
+    "description": "update done by me"
+}
+
+5. to delete (delete)
+http://localhost:3000/api/v1/updateTodo/id
